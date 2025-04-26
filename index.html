@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Linux team</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Контейнер людей слева -->
+  <div class="social-container">
+    <div class="social-icon" onclick="showInfo(0)">
+      <div class="social-icon-bg">
+        <img src="ruslan.jpg" alt="Ruslan" />
+      </div>
+    </div>
+
+    <div class="social-icon" onclick="showInfo(1)">
+      <div class="social-icon-bg">
+        <img src="hleb.jpg" alt="Hlib" />
+      </div>
+    </div>
+
+    <div class="social-icon" onclick="showInfo(2)">
+      <div class="social-icon-bg">
+        <img src="art.jpg" alt="Artem" />
+      </div>
+    </div>
+
+    <div class="social-icon" onclick="showInfo(3)">
+      <div class="social-icon-bg">
+        <img src="dima.jpg" alt="Dima" />
+      </div>
+    </div>
+
+    <div class="social-icon" onclick="showInfo(4)">
+      <div class="social-icon-bg">
+        <img src="vladik.jpg" alt="Vlad" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Центральная инфопанель -->
+  <div class="info-panel" id="info-panel">
+    <img id="info-img" src="" alt="Profile" />
+    <h2 id="info-name"></h2>
+    <p id="info-desc"></p>
+  </div>
+
+  <!-- Контейнер кнопок справа -->
+  <div class="right-buttons-container" id="right-buttons">
+    <!-- Сюда динамически будут подставляться кнопки -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
