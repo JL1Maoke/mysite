@@ -51,7 +51,7 @@ const people = [
     img: "vladik.jpg",
     background: "kosmo.jpg",
     links: [
-      { url: "#", img: "instagram.png" },
+      { url: "https://www.instagram.com/blurrxfaceo?igsh=MWd4amU2azRtbWRlbA%3D%3D&utm_source=qr", img: "instagram.png" },
       { url: "https://steamcommunity.com/profiles/76561199002536027", img: "steam.png" },
       { url: "https://t.me/Borhch", img: "telegram.png" }
     ]
